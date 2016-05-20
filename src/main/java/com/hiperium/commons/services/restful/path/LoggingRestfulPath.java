@@ -25,7 +25,7 @@ public final class LoggingRestfulPath {
 	// ***************************************************************** //
 
 	/** The property AUDIT_CONTEXT_ROOT with path /hiperium-audit. */
-	public static final String AUDIT_CONTEXT_ROOT = "/hiperium-audit";
+	public static final String LOGGING_CONTEXT_ROOT = "/hiperium-logging";
 
 	// ***************************************************************** //
 	// ***************************************************************** //
@@ -33,8 +33,8 @@ public final class LoggingRestfulPath {
 	// ***************************************************************** //
 	// ***************************************************************** //
 
-	/** The property AUDIT_PATH with path /api/audit. */
-	public static final String AUDIT_PATH = "/api/audit";
+	/** The property LOGGING_PATH with path /api/logging. */
+	public static final String LOGGING_PATH = "/api/logging";
 
 	// ***************************************************************** //
 	// ***************************************************************** //
@@ -46,11 +46,6 @@ public final class LoggingRestfulPath {
 	 * The property APPLICATION_USER with REST path /appUser.
 	 */
 	public static final String DEVICE_AUDIT = "/device";
-
-	/**
-	 * The property USER_STATISTICS with REST path /userStatistics.
-	 */
-	public static final String USER_STATISTICS = "/userStatistics";
 
 	// ***************************************************************** //
 	// ***************************************************************** //
@@ -66,11 +61,5 @@ public final class LoggingRestfulPath {
 
 	/** The DELETE property path. */
 	public static final String DELETE = "/delete";
-
-	/** The FIND_USER_STATISTIC property path. */
-	public static final String FIND_USER_STATISTIC = "/findUserStatistic";
-
-	/** The UPDATE_LAST_PASSWD property path. */
-	public static final String UPDATE_LAST_PASSWD = "/updateLastPasswd";
 
 }

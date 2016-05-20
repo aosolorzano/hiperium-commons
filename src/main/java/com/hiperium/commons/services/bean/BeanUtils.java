@@ -15,7 +15,6 @@ package com.hiperium.commons.services.bean;
 import java.io.Serializable;
 import java.util.Date;
 
-import com.hiperium.commons.client.exception.InformationException;
 import com.hiperium.commons.services.logger.HiperiumLogger;
 
 /**
@@ -41,19 +40,12 @@ public final class BeanUtils implements Serializable {
 	
 	/**
 	 * Copy the origin object properties over the destination object properties.
-	 * 
-	 * @param orig
-	 *            the origin or source object
-	 * @param dest
-	 *            the destination copy object
+	 * @param orig the origin or source object.
+	 * @param dest the destination copy object
+	 * @throws Exception
 	 */
-	public static void copyProperties(Object orig, Object dest) throws InformationException {
-		try {
-			org.apache.commons.beanutils.BeanUtils.copyProperties(dest, orig);
-		} catch (Exception e) {
-			LOGGER.error(e.getMessage(), e);
-			throw new InformationException("Could not copy object properties.");
-		}
+	public static void copyProperties(Object orig, Object dest) throws Exception {
+		org.apache.commons.beanutils.BeanUtils.copyProperties(dest, orig);
 	}
 	
 	/**

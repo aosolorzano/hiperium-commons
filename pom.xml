@@ -85,13 +85,6 @@
 	</distributionManagement>
 
 	<dependencies>
-		<!-- Import the Hiperium Client dependency. -->
-		<dependency>
-			<groupId>com.hiperium</groupId>
-			<artifactId>hiperium-client</artifactId>
-			<version>1.0-SNAPSHOT</version>
-			<scope>provided</scope>
-		</dependency>
 		<!-- JAVAX VALIDATION API: Provided by the JEE Container. -->
 		<dependency>
 			<groupId>javax.validation</groupId>
