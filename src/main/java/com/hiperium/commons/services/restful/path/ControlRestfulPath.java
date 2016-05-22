@@ -87,10 +87,13 @@ public final class ControlRestfulPath {
 	/** The FIND_ZONE_BY_ID property path. */
 	public static final String FIND_ZONE_BY_ID = "/findById";
 
-	/** The FIND_ZONE_BY_PROFILE_ID property path. */
+	/** The USER_OPERATION property path. */
 	public static final String FIND_ZONE_BY_PROFILE_ID = "/findByProfileId";
 
-	/** The HOME_OPERATION property path. */
+	/** The HOME_OPERATION property path /userOperation. */
+	public static final String USER_OPERATION = "/userOperation";
+	
+	/** The HOME_OPERATION property path /homeOperation. */
 	public static final String HOME_OPERATION = "/homeOperation";
 
 }
