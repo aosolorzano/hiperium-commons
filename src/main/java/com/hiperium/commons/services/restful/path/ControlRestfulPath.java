@@ -56,6 +56,11 @@ public final class ControlRestfulPath {
 	 * The property ZONES with REST path /zone.
 	 */
 	public static final String ZONES = "/zone";
+	
+	/**
+	 * The property GATEWAY with REST path /gateway.
+	 */
+	public static final String GATEWAY = "/gateway";
 
 	// ***************************************************************** //
 	// ***************************************************************** //
