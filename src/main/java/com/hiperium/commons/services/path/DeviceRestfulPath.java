@@ -10,13 +10,13 @@
  * Copyright 2014 Andres Solorzano. All rights reserved.
  * 
  */
-package com.hiperium.commons.services.restful.path;
+package com.hiperium.commons.services.path;
 
 /**
  * 
  * @author Andres Solorzano
  */
-public final class ControlRestfulPath {
+public final class DeviceRestfulPath {
 
 	// ***************************************************************** //
 	// ***************************************************************** //
@@ -24,8 +24,8 @@ public final class ControlRestfulPath {
 	// ***************************************************************** //
 	// ***************************************************************** //
 
-	/** The property SECURITY_CONTEXT_ROOT with path /hiperium-security. */
-	public static final String CONTROL_CONTEXT_ROOT = "/hiperium-control";
+	/** The property DEVICE_CONTEXT_ROOT with path /hiperium-device. */
+	public static final String DEVICE_CONTEXT_ROOT = "/hiperium-device";
 
 	// ***************************************************************** //
 	// ***************************************************************** //
@@ -33,8 +33,8 @@ public final class ControlRestfulPath {
 	// ***************************************************************** //
 	// ***************************************************************** //
 
-	/** The property CONTROL_PATH with path /api/control. */
-	public static final String CONTROL_PATH = "/api/control";
+	/** The property DEVICE_PATH with path /api/device. */
+	public static final String DEVICE_PATH = "/api/device";
 
 	// ***************************************************************** //
 	// ***************************************************************** //

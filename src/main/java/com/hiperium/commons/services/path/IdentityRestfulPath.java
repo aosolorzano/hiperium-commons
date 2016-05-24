@@ -10,7 +10,7 @@
  * Copyright 2014 Andres Solorzano. All rights reserved.
  * 
  */
-package com.hiperium.commons.services.restful.path;
+package com.hiperium.commons.services.path;
 
 /**
  * 
