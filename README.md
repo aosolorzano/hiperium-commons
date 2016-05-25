@@ -2,7 +2,7 @@ Hiperium Project: Platform for the Internet of Things.
 ========================
 Author: Andres Solorzano.    
 Level: Basic.    
-Technologies: Bean Validation, Bean Utils, Zookeeper Register and Log4J.    
+Technologies: Bean Validation, Bean Utils, Log4J.    
 Summary: This a shared project utilities between microservices.    
 Target Product: Java 8.    
 Source: <https://bitbucket.org/hiperium-project/hiperium-commons/src>  
